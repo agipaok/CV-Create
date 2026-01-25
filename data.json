@@ -1,0 +1,169 @@
+{
+  "basics": {
+    "name": "Archelaos Chatzinikolaou",
+    "title": "Junior Web Developer",
+    "summary": "Forward-looking junior developer transitioning from business operations to web development. Skilled in JavaScript, React, PHP, and AI-assisted development with hands-on experience in building modern web applications. Eager to contribute to real-world projects and continuously expand technical knowledge.",
+    "location": "Thessaloniki, Greece",
+    "photo": "assets/photo.jpg",
+    "contacts": [
+      {
+        "label": "Email",
+        "value": "archelaos.chatzinikolaou@gmail.com",
+        "href": "mailto:archelaos.chatzinikolaou@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "+30 6948 858585",
+        "href": "tel:+306948858585"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/agipaok",
+        "href": "https://github.com/agipaok"
+      },
+      {
+        "label": "Website",
+        "value": "archelaos.dev",
+        "href": "https://archelaos.dev"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/archelaos-chatzinikolaou-6b59b86a",
+        "href": "https://www.linkedin.com/in/archelaos-chatzinikolaou-6b59b86a/"
+      },
+      {
+        "label": "Location",
+        "value": "Thessaloniki, Greece"
+      }
+    ]
+  },
+  "skills": [
+    "JavaScript",
+    "React",
+    "HTML",
+    "CSS",
+    "PHP (CodeIgniter 4)",
+    "MySQL",
+    "Git",
+    "GitHub",
+    "RESTful APIs",
+    "MVC Architecture",
+    "AI Prompt Engineering",
+    "VS Code",
+    "Python",
+    "SQL"
+  ],
+  "experience": [
+    {
+      "title": "Junior Web Developer",
+      "subtitle": "IQTaxi Inc.",
+      "meta": "August 2025 - January 2026",
+      "bullets": [
+        "Full-stack web development using JavaScript, React, PHP and CodeIgniter 4 framework",
+        "Frontend development with React for dynamic and responsive user interfaces",
+        "Backend development and API integration with PHP",
+        "Database management and optimization with MySQL",
+        "AI prompt engineering and integration for enhanced development workflows",
+        "Utilizing AI tools for code optimization and problem-solving",
+        "Development and deployment of client web applications",
+        "Contributed to zipeat.com food delivery platform",
+        "Contributed to Taxi-Fleet booking system"
+      ]
+    },
+    {
+      "title": "Apple Sales Expert",
+      "subtitle": "iStorm S.A. (Apple Premium Reseller)",
+      "meta": "2022 - 2024",
+      "bullets": [
+        "Advised customers on Apple products, ecosystem integration, and device setup",
+        "Delivered tailored product demonstrations and post-purchase support",
+        "Consistently exceeded sales targets and maintained exceptional customer satisfaction scores",
+        "Developed expertise in Apple hardware, software, and service operations"
+      ]
+    },
+    {
+      "title": "Business Owner | Sales & Operations Manager",
+      "subtitle": "MANASKOS - Genuine Spare Parts for Agricultural Machinery",
+      "meta": "2008 - Present",
+      "bullets": [
+        "Managed daily operations and B2B sales across Greece and Europe",
+        "Implemented ERP system integration to streamline inventory and order management",
+        "Analyzed sales and supplier data to improve purchasing efficiency",
+        "Driving digital transformation through e-commerce initiatives and SEO"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "archelaos.dev — Portfolio",
+      "subtitle": "React, HTML, CSS",
+      "meta": "Responsive portfolio showcasing development projects",
+      "bullets": ["Modern UI/UX with smooth animations"]
+    },
+    {
+      "title": "manaskos.gr — Agricultural Machinery E-commerce",
+      "subtitle": "PHP, MySQL, SEO",
+      "meta": "E-commerce platform for genuine spare parts",
+      "bullets": [
+        "Implemented ERP integration and inventory management",
+        "SEO optimization for European market reach"
+      ]
+    },
+    {
+      "title": "voreopoulos-service.gr — Car Service Booking Platform",
+      "subtitle": "React, PHP, MySQL",
+      "meta": "Full-stack booking system for automotive services",
+      "bullets": [
+        "Frontend built with React, backend with PHP and MySQL",
+        "Real-time appointment management and customer notifications"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Hellenic Open University Informatics & Programming",
+      "meta": "2023 - 2024"
+    },
+    {
+      "title": "EKEK ATHENA Python Programming & Applications",
+      "meta": "2025"
+    },
+    {
+      "title": "IEK DELTA Automotive Engineering",
+      "meta": "2002 - 2004"
+    }
+  ],
+  "courses": [
+    {
+      "title": "JavaScript - Scrimba",
+      "meta": "2026"
+    },
+    {
+      "title": "React - Scrimba",
+      "meta": "2026"
+    }
+    {
+      "title": "Python Programming & Applications - EKEK ATHENA",
+      "meta": "2025 - ongoing"
+    },
+    {
+      "title": "Informatics & Programming - Hellenic Open University",
+      "meta": "2023 - 2024"
+    },
+    {
+      "title": "SQL Seminar"
+    },
+    {
+      "title": "Python Seminars & Workshops",
+      "meta": "2024 - 2025"
+    }
+  ],
+  "languages": ["Greek - Native", "English - Fluent"],
+  "interests": [
+    "Basketball",
+    "Gaming",
+    "Ski",
+    "Networking & Socializing",
+    "Technology & Innovation"
+  ]
+}
