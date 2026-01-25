@@ -4,7 +4,7 @@
     "title": "Junior Web Developer",
     "summary": "Forward-looking junior developer transitioning from business operations to web development. Skilled in JavaScript, React, PHP, and AI-assisted development with hands-on experience in building modern web applications. Eager to contribute to real-world projects and continuously expand technical knowledge.",
     "location": "Thessaloniki, Greece",
-    "photo": "assets/photo.jpg",
+    "photo": "agi.png",
     "contacts": [
       {
         "label": "Email",
@@ -28,7 +28,7 @@
       },
       {
         "label": "LinkedIn",
-        "value": "linkedin.com/in/archelaos-chatzinikolaou-6b59b86a",
+        "value": "LinkedIn",
         "href": "https://www.linkedin.com/in/archelaos-chatzinikolaou-6b59b86a/"
       },
       {
@@ -95,13 +95,13 @@
   ],
   "projects": [
     {
-      "title": "archelaos.dev — Portfolio",
+      "title": "archelaos.dev - Portfolio",
       "subtitle": "React, HTML, CSS",
       "meta": "Responsive portfolio showcasing development projects",
       "bullets": ["Modern UI/UX with smooth animations"]
     },
     {
-      "title": "manaskos.gr — Agricultural Machinery E-commerce",
+      "title": "manaskos.gr - Agricultural Machinery E-commerce",
       "subtitle": "PHP, MySQL, SEO",
       "meta": "E-commerce platform for genuine spare parts",
       "bullets": [
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "voreopoulos-service.gr — Car Service Booking Platform",
+      "title": "voreopoulos-service.gr - Car Service Booking Platform",
       "subtitle": "React, PHP, MySQL",
       "meta": "Full-stack booking system for automotive services",
       "bullets": [
@@ -141,7 +141,7 @@
     {
       "title": "React - Scrimba",
       "meta": "2026"
-    }
+    },
     {
       "title": "Python Programming & Applications - EKEK ATHENA",
       "meta": "2025 - ongoing"
