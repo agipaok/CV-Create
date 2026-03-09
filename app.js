@@ -78,15 +78,45 @@ const fillChips = (targetId, title, items = []) => {
   const target = $(targetId);
   target.innerHTML = "";
   const section = createSection(title);
-  const wrapper = document.createElement("div");
-  wrapper.className = "chips";
-  items.forEach((item) => {
-    const chip = document.createElement("span");
-    chip.className = "chip";
-    chip.textContent = item;
-    wrapper.appendChild(chip);
-  });
-  section.appendChild(wrapper);
+
+  const hasGroups = items.some(
+    (item) => typeof item === "object" && item !== null && Array.isArray(item.items)
+  );
+
+  if (hasGroups) {
+    items.forEach((group) => {
+      if (!group || typeof group !== "object" || !Array.isArray(group.items)) return;
+      const groupWrap = document.createElement("div");
+      groupWrap.className = "skill-group";
+
+      const groupTitle = document.createElement("h3");
+      groupTitle.className = "skill-group-title";
+      groupTitle.textContent = group.category || "";
+      groupWrap.appendChild(groupTitle);
+
+      const chips = document.createElement("div");
+      chips.className = "chips";
+      group.items.forEach((item) => {
+        const chip = document.createElement("span");
+        chip.className = "chip";
+        chip.textContent = item;
+        chips.appendChild(chip);
+      });
+      groupWrap.appendChild(chips);
+      section.appendChild(groupWrap);
+    });
+  } else {
+    const wrapper = document.createElement("div");
+    wrapper.className = "chips";
+    items.forEach((item) => {
+      const chip = document.createElement("span");
+      chip.className = "chip";
+      chip.textContent = item;
+      wrapper.appendChild(chip);
+    });
+    section.appendChild(wrapper);
+  }
+
   target.appendChild(section);
 };
 
@@ -123,9 +153,9 @@ fetch("data.json")
 
     fillListSection("#experience", "Work Experience", data.experience);
     fillListSection("#projects", "Projects", data.projects);
-    fillChips("#skills", "Professional Skills", data.skills);
+    fillChips("#skills", "Technical Skills", data.skills);
     fillListSection("#education", "Educational Background", data.education);
-    fillListSection("#courses", "Relevant Courses", data.courses);
+    fillListSection("#courses", "Additional Training", data.courses);
     fillChips("#languages", "Languages", data.languages);
     fillChips("#interests", "Interests", data.interests);
 

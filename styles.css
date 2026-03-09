@@ -223,6 +223,21 @@ body {
   gap: 8px;
 }
 
+.skill-group {
+  margin-bottom: 12px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-group-title {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
 .chip {
   background: var(--chip);
   border-radius: 999px;
@@ -265,6 +280,11 @@ body {
   .hero-text h1 {
     font-size: 2rem;
   }
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
 }
 
 @media print {

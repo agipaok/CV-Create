@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Archelaos Chatzinikolaou",
-    "title": "Junior Web Developer",
-    "summary": "Forward-looking junior developer transitioning from business operations to web development. Skilled in JavaScript, React, PHP, and AI-assisted development with hands-on experience in building modern web applications. Eager to contribute to real-world projects and continuously expand technical knowledge.",
+    "title": "Junior .NET Developer (C# / Blazor)",
+    "summary": "Junior developer transitioning from business operations to modern .NET web development. Focused on building web applications using C#, Blazor, ASP.NET Core and SQL. Experienced in frontend and backend development, database design and practical problem solving through real-world projects. Passionate about learning through building applications and continuously improving software engineering skills.",
     "location": "Thessaloniki, Greece",
     "photo": "agi.png",
     "contacts": [
@@ -28,8 +28,8 @@
       },
       {
         "label": "LinkedIn",
-        "value": "LinkedIn",
-        "href": "https://www.linkedin.com/in/archelaos-chatzinikolaou-6b59b86a/"
+        "value": "linkedin.com/in/archelaos-chatzinikolaou-6b59b86a",
+        "href": "https://www.linkedin.com/in/archelaos-chatzinikolaou-6b59b86a"
       },
       {
         "label": "Location",
@@ -38,36 +38,50 @@
     ]
   },
   "skills": [
-    "JavaScript",
-    "React",
-    "HTML",
-    "CSS",
-    "PHP (CodeIgniter 4)",
-    "MySQL",
-    "Git",
-    "GitHub",
-    "RESTful APIs",
-    "MVC Architecture",
-    "AI Prompt Engineering",
-    "VS Code",
-    "Python",
-    "SQL"
+    {
+      "category": "Programming",
+      "items": ["C#", "JavaScript", "Python"]
+    },
+    {
+      "category": "Frameworks & Technologies",
+      "items": ["Blazor Server", "ASP.NET Core", "React", "PHP (CodeIgniter 4)"]
+    },
+    {
+      "category": "Web Development",
+      "items": ["HTML", "CSS", "REST APIs", "MVC Architecture"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL", "MySQL", "SQLite"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "GitHub", "VS Code"]
+    },
+    {
+      "category": "Concepts",
+      "items": [
+        "Object-Oriented Programming (OOP)",
+        "Entity Framework Core",
+        "Component-Based UI Development",
+        "API Integration",
+        "Dependency Injection"
+      ]
+    }
   ],
   "experience": [
     {
       "title": "Junior Web Developer",
       "subtitle": "IQTaxi Inc.",
-      "meta": "August 2025 - January 2026",
+      "meta": "Aug 2025 - Jan 2026",
       "bullets": [
-        "Full-stack web development using JavaScript, React, PHP and CodeIgniter 4 framework",
-        "Frontend development with React for dynamic and responsive user interfaces",
-        "Backend development and API integration with PHP",
-        "Database management and optimization with MySQL",
-        "AI prompt engineering and integration for enhanced development workflows",
-        "Utilizing AI tools for code optimization and problem-solving",
-        "Development and deployment of client web applications",
-        "Contributed to zipeat.com food delivery platform",
-        "Contributed to Taxi-Fleet booking system"
+        "Worked on full-stack web applications in a collaborative development environment.",
+        "Developed frontend interfaces using React and modern JavaScript",
+        "Built backend functionality and APIs using PHP and CodeIgniter 4",
+        "Designed and optimized relational databases with MySQL",
+        "Integrated APIs and external services into web platforms",
+        "Participated in development of production systems including zipeat.com food delivery platform and Taxi-Fleet booking and management system",
+        "Used AI tools to assist development workflow, debugging and code optimization"
       ]
     },
     {
@@ -75,37 +89,54 @@
       "subtitle": "iStorm S.A. (Apple Premium Reseller)",
       "meta": "2022 - 2024",
       "bullets": [
-        "Advised customers on Apple products, ecosystem integration, and device setup",
-        "Delivered tailored product demonstrations and post-purchase support",
-        "Consistently exceeded sales targets and maintained exceptional customer satisfaction scores",
-        "Developed expertise in Apple hardware, software, and service operations"
+        "Provided product consulting and technical guidance for Apple ecosystem",
+        "Delivered personalized device setup and after-sales support",
+        "Maintained high customer satisfaction and consistently exceeded sales targets",
+        "Developed strong communication and problem-solving skills in a fast-paced environment"
       ]
     },
     {
       "title": "Business Owner | Sales & Operations Manager",
-      "subtitle": "MANASKOS - Genuine Spare Parts for Agricultural Machinery",
+      "subtitle": "MANASKOS - Agricultural Machinery Spare Parts",
       "meta": "2008 - Present",
       "bullets": [
-        "Managed daily operations and B2B sales across Greece and Europe",
-        "Implemented ERP system integration to streamline inventory and order management",
-        "Analyzed sales and supplier data to improve purchasing efficiency",
-        "Driving digital transformation through e-commerce initiatives and SEO"
+        "Managed B2B sales and supplier relations across Greece and Europe",
+        "Implemented ERP integration for inventory and order management",
+        "Organized large product catalogs and structured business data",
+        "Led digital initiatives including website development and SEO strategy",
+        "Developed practical understanding of real business workflows and system requirements"
       ]
     }
   ],
   "projects": [
     {
-      "title": "archelaos.dev - Portfolio",
-      "subtitle": "React, HTML, CSS",
-      "meta": "Responsive portfolio showcasing development projects",
-      "bullets": ["Modern UI/UX with smooth animations"]
+      "title": "Warehouse Management System (Learning Project)",
+      "subtitle": "C#, Blazor Server, Entity Framework Core, SQLite",
+      "meta": "GitHub: github.com/agipaok/WarehouseManager",
+      "bullets": [
+        "Web application for managing products, suppliers and stock movements",
+        "Built using Blazor Server components and Razor pages",
+        "Implemented CRUD operations with Entity Framework Core",
+        "Designed database structure and relationships",
+        "Practiced dependency injection and service architecture"
+      ]
+    },
+    {
+      "title": "archelaos.dev - Personal Developer Portfolio",
+      "subtitle": "HTML, CSS",
+      "meta": "Portfolio website presenting projects and technical skills",
+      "bullets": [
+        "Responsive design and modern UI",
+        "Project showcase and GitHub integration"
+      ]
     },
     {
       "title": "manaskos.gr - Agricultural Machinery E-commerce",
-      "subtitle": "PHP, MySQL, SEO",
-      "meta": "E-commerce platform for genuine spare parts",
+      "subtitle": "PHP, MySQL",
+      "meta": "E-commerce platform for spare parts distribution",
       "bullets": [
-        "Implemented ERP integration and inventory management",
+        "Product catalog and inventory system",
+        "ERP integration for business operations",
         "SEO optimization for European market reach"
       ]
     },
@@ -114,56 +145,32 @@
       "subtitle": "React, PHP, MySQL",
       "meta": "Full-stack booking system for automotive services",
       "bullets": [
-        "Frontend built with React, backend with PHP and MySQL",
-        "Real-time appointment management and customer notifications"
+        "Frontend built with React",
+        "Backend logic with PHP and MySQL",
+        "Real-time appointment management and notifications"
       ]
     }
   ],
   "education": [
     {
-      "title": "Hellenic Open University Informatics & Programming",
+      "title": "Hellenic Open University - Informatics & Programming",
       "meta": "2023 - 2024"
     },
     {
-      "title": "EKEK ATHENA Python Programming & Applications",
+      "title": "EKEK ATHENA - Python Programming & Applications",
       "meta": "2025"
     },
     {
-      "title": "IEK DELTA Automotive Engineering",
+      "title": "IEK DELTA - Automotive Engineering",
       "meta": "2002 - 2004"
     }
   ],
   "courses": [
     {
-      "title": "JavaScript - Scrimba",
-      "meta": "2026"
-    },
-    {
-      "title": "React - Scrimba",
-      "meta": "2026"
-    },
-    {
-      "title": "Python Programming & Applications - EKEK ATHENA",
-      "meta": "2025 - ongoing"
-    },
-    {
-      "title": "Informatics & Programming - Hellenic Open University",
-      "meta": "2023 - 2024"
-    },
-    {
-      "title": "SQL Seminar"
-    },
-    {
-      "title": "Python Seminars & Workshops",
-      "meta": "2024 - 2025"
+      "title": "Additional Training",
+      "meta": "C# - Microsoft | Blazor - Microsoft | JavaScript - Scrimba | React - Scrimba | SQL Seminars | Python Seminars & Workshops"
     }
   ],
   "languages": ["Greek - Native", "English - Fluent"],
-  "interests": [
-    "Basketball",
-    "Gaming",
-    "Ski",
-    "Networking & Socializing",
-    "Technology & Innovation"
-  ]
+  "interests": ["Basketball", "Gaming", "Technology & Innovation", "Networking"]
 }
